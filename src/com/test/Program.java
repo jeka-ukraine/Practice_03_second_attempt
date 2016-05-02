@@ -57,7 +57,7 @@ public class Program {
             System.out.println("Deal " + deals[j].getDate() + ":");
             System.out.println(deals[j].getSeller().getName() + " buys at " + deals[j].getBuyer().getName() + ":");
             for (int i=0; i<MAX_PRODUCTS; i++){
-                System.out.println("     " + products[i].getTitle() + " " + String.valueOf(products[i].getPrice())  + "$ x " + String.valueOf(products[i].getQuantity()) + " = " + (products[i].getPrice() * products[i].getQuantity()) + "$ ;");
+                System.out.println("     " + products[i].getTitle() + " " + products[i].getPrice()  + "$ x " + products[i].getQuantity() + " = " + (products[i].getPrice() * products[i].getQuantity()) + "$ ;");
             }
 
         }
